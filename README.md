@@ -2,10 +2,11 @@
 
 
 <h1 align="center">
-    <img alt="Daki+robot" title="Robot" src=".imgs/Gravação de Tela 2023-07-26 às 19.19.35.movg" width="100%" />
+<video src='https://youtu.be/Pq_dNvVnivM' width=180/> 
+       [ <img alt="Landmarkm" title="Robot" src="./imgs/Simulator Screenshot - iPhone 14 - 2023-07-26 at 19.05.36.png" width="30%" />] 
 </h1>
 
- Landmarks: an app for discovering and sharing the places you love. 
+ Landmarks: an app for discovering and sharing the places you love. <br>
  App created for study pourposes in Developer.apple > SWIFT Tutorials
 
 ## ✅ Features
@@ -14,110 +15,15 @@
 - Drawing paths and shapes;
 - Animating Views and Transitions;
 
+
+## 📱 Images
+
   
+## 🗒️ Requiriments
 
-## 🗒️ Pré-requisitos
-
-Você vai precisar das seguintes ferramentas e tecnologias:
-
-- [Python](https://www.python.org/downloads/)
-- [Node.js](https://nodejs.org/en/)
-- [Java JDK11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
-- [Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)
-- [Appium](http://appium.io/downloads.html)
-- [Robot Framework](https://robotframework.org/)
-
-## 💻 Ferramentas
-
- [JDK](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html).
-
-[Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)
-
-##  Variáveis de ambiente (para Linux)
-
-Configure as seguintes váriávies de ambiente no **bash_profile** ou **zshrc** do seu Linux ou Mac:
-
-```bash
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-export ANDROID_HOME=~/Library/Android/sdk
-
-PATH=$PATH:$ANDROID_HOME/platform-tools
-PATH=$PATH:$ANDROID_HOME/tools
-PATH=$PATH:$ANDROID_HOME/tools/bin
-PATH=$PATH:$ANDROID_HOME/tools/lib
-PATH=$PATH:$JAVA_HOME/bin
-```
-
-Para ZSH, execute o comando:
-
-```bash
-source ~/.zshrc
-```
-
-Para Bash, execute o comando:
-
-```bash
-source ~/.bashrc
-```
-
-## 📱Appium 
-
-- Com o Node.js instalado, execute:
-
-  | Se estiver no Windows, execute no Prompt como Administrador
-
-```bash
-npm install -g appium
-npm install -g appium-doctor
-```
-
-- Em seguida, execute:
-
-```bash
-appium-doctor --android
-```
-
-- Deve aprensentar um resultado similar ao da imagem abaixo:
-
-<h1 align="left">
-    <img alt="doctor" src=".img/doctor.png" width="100%" />
-</h1>
- 
-## 📱Appium Desktop + Appium  Inspector (dev)
-
-Instale o [Appium Desktop](https://appium.io/downloads.html)
-
-Instale o  [Appium Inspector](https://github.com/appium/appium-inspector)
+- [XCode](https://developer.apple.com/xcode/)
 
 
-Configs:
-
-1.  Abra o  Appium Server GUI -> Advanced  
-    Server address: localhost  
-    Port: 4723  
-    Allow CORP: yes
-
-2.  Abra o  AAppium Inspector  
-    Remote host: localhost  
-    Port: 4723  
-    Path: /wd/hub
-    
-3.  Allow Unauthorized Certificates
-    
-4.  Select your capabilities
-    
-5.  Start server   
-
- Instale o Robot e a Lib do Appium conforme descrito na [doc](https://robotframework.org/);
-
-## 🪄 Testes
-
-- Abra o Appium Desktop e clique em Start Server ou rode `appium` em um terminal e a outra:
-
-- Acesse a pasta do projeto;
--
-- Execute o comando: `robot -d ./logs <daki_tests.robot>`;
-- Enjoy.
 
 ## 📝 Notas do autor
 
