@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-    <img alt="Daki+robot" title="Robot" src=".img/splash.png" width="100%" />
+    <img alt="Daki+robot" title="Robot" src=".imgs/Gravação de Tela 2023-07-26 às 19.19.35.movg" width="100%" />
 </h1>
 
  Landmarks: an app for discovering and sharing the places you love. 
